@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color:#121214;
+}
+.tudo{
+    width: 700px;
+}
+.net-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.net{
+    height: 213px;
+    width: 293px;
+}
+.pergunta p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+.perfil{
+    padding-block: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+.cads{
+    width: 160px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    transition: 0.5s;  
+}
+.perfil .nome:hover img{
+    border: 1px solid #fff;
+}
+.perfil .nome:hover p{
+    color: #fff;
+}
+.nome{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 10px;
+    height: 160px;
+    width: 170px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 50px;
+    background-color: #000;
+    color: #ececec;
+    border: 2px solid #c9bdbd;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.gerenciar-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.perfil p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(162, 167, 172);
+    transition: 0.5s;
+}
+
+
+    
+
+    
+
